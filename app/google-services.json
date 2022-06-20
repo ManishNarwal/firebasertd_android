@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "418707351353",
+    "firebase_url": "https://fir-databaseapp-87fa5-default-rtdb.firebaseio.com",
+    "project_id": "fir-databaseapp-87fa5",
+    "storage_bucket": "fir-databaseapp-87fa5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418707351353:android:b796c9db822106f496aae8",
+        "android_client_info": {
+          "package_name": "com.myratech.firebasertdapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418707351353-p88a9ovmjv1c7q5ni7v6iiuoq1qtmgrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMpBVtiksqEvzmG7NVXvkczk2R4VCOrYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418707351353-p88a9ovmjv1c7q5ni7v6iiuoq1qtmgrq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418707351353:android:d901ea986f207e7296aae8",
+        "android_client_info": {
+          "package_name": "com.peace.demo.firebasedatabaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418707351353-p88a9ovmjv1c7q5ni7v6iiuoq1qtmgrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMpBVtiksqEvzmG7NVXvkczk2R4VCOrYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418707351353-p88a9ovmjv1c7q5ni7v6iiuoq1qtmgrq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

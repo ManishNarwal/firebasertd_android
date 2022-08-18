@@ -26,6 +26,25 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    flavorDimensions "version"
+    productFlavors {
+        dev {
+            dimension "version"
+            applicationIdSuffix ".dev"
+            resValue "string", "app_name", "Dev FirebaseRTDApplication"
+        }
+        qa {
+            dimension "version"
+            applicationIdSuffix ".qa"
+            resValue "string", "app_name", "QA FirebaseRTDApplication"
+        }
+        production {
+            dimension "version"
+            resValue "string", "app_name", "FirebaseRTDApplication"
+        }
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

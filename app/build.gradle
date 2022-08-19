@@ -65,7 +65,6 @@ android {
                     fileFormat += ".apk"
                 }
                 output.outputFileName = fileFormat
-//                println(outputFileName)
             }
         }
     }

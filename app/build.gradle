@@ -13,15 +13,15 @@ def getDate() {
 
 android {
     compileSdk 32
-//    def appVersionName = (System.getenv("APP_VERSION_NUMBER") as String) ?: "1.1"
-//    def appVersionCode = rootProject.properties.get("BUILD_NUMBER") as Integer
+    def appVersionName = (System.getenv("APP_VERSION_NUMBER") as String) ?: "1.1"
+    def appVersionCode = rootProject.properties.get("BUILD_NUMBER") as Integer
 
     defaultConfig {
         applicationId "com.myratech.firebasertdapplication"
         minSdk 23
         targetSdk 32
         versionCode 2
-        versionName "1.2"
+        versionName appVersionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     flavorDimensions "version"

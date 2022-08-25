@@ -14,13 +14,13 @@ def getDate() {
 android {
     compileSdk 32
     def appVersionName = (System.getenv("APP_VERSION_NUMBER") as String) ?: "1.1"
-    def appVersionCode = rootProject.properties.get("BUILD_NUMBER") as Integer
+    def appVersionCode = System.getenv("BUILD_NUMBER") as Integer ?: 420
 
     defaultConfig {
         applicationId "com.myratech.firebasertdapplication"
         minSdk 23
         targetSdk 32
-        versionCode appVersionCode ?: 510
+        versionCode appVersionCode
         versionName appVersionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

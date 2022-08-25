@@ -20,7 +20,7 @@ android {
         applicationId "com.myratech.firebasertdapplication"
         minSdk 23
         targetSdk 32
-        versionCode 2
+        versionCode appVersionCode ?: 510
         versionName appVersionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
